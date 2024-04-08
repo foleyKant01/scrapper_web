@@ -1,5 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import * as Blockly from 'blockly/core';
+import {Component, OnInit } from '@angular/core';
+import * as Blockly from 'blockly';
+
+
+
 
 @Component({
   selector: 'app-customer-attribute',
@@ -7,6 +10,8 @@ import * as Blockly from 'blockly/core';
   styleUrls: ['./customer-attribute.component.scss']
 })
 export class CustomerAttributeComponent implements OnInit {
+
+
 
   constructor() {}
 
@@ -55,9 +60,4 @@ export class CustomerAttributeComponent implements OnInit {
     this.createWorkspace();
   }
 
-  
-
-
-
-  
 }
