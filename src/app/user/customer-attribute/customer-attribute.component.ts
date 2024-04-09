@@ -1,8 +1,5 @@
-import {Component, OnInit } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import * as Blockly from 'blockly';
-
-
-
 
 @Component({
   selector: 'app-customer-attribute',
@@ -11,12 +8,9 @@ import * as Blockly from 'blockly';
 })
 export class CustomerAttributeComponent implements OnInit {
 
-
-
   constructor() {}
 
-
-  toolbox = {
+   toolbox = {
     "kind": "flyoutToolbox",
     "contents": [
       {
@@ -48,13 +42,11 @@ export class CustomerAttributeComponent implements OnInit {
         "type": "text_print"
       },
     ]
-  };
+  }
 
   createWorkspace() {
     Blockly.inject('blocklyDiv', {toolbox: this.toolbox});
-    
   }
-
 
   ngOnInit(): void {
     this.createWorkspace();
