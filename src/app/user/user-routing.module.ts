@@ -18,7 +18,7 @@ const routes: Routes = [
       { path: 'custom-fields', component: CustomFieldsComponent },
       { path: 'analytics', component: AnalyticsComponent },
       { path: 'stores', component: StoresComponent },
-      { path: 'customer-attribute', component: CustomerAttributeComponent }
+      { path: 'custom-attribute', component: CustomerAttributeComponent }
     ]
   }
 
